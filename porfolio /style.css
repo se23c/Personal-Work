@@ -1,0 +1,23 @@
+body {
+    /* Removes default browser margins */
+    margin: 0; 
+    padding: 0;
+    
+    /* Set path to your image */
+    background-image: url('images/portfolio-bg.jpg'); 
+    
+    /* Centers the image perfectly */
+    background-position: center; 
+    
+    /* Prevents the image from duplicating like a grid */
+    background-repeat: no-repeat; 
+    
+    /* Locks the image in place so content scrolls over it */
+    background-attachment: fixed; 
+    
+    /* Scales the image proportionally to cover the whole screen */
+    background-size: cover; 
+    
+    /* Fallback color if the image fails to load */
+    background-color: #121212; 
+}
